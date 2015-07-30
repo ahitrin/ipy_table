@@ -363,7 +363,7 @@ class IpyTable(object):
             if type(item) == unicode:
                 text = item
             else:
-                text = str(item)
+                text = unicode(item)
 
         # If cell wrapping is not specified
         if not ('wrap' in cell_style and cell_style['wrap']):

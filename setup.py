@@ -9,6 +9,8 @@ The full license is in the file COPYING.txt, distributed with this software.
 This project is maintained at http://github.com/epmoyer/ipy_table
 """
 
+from ipy_table import __version__
+
 from setuptools import setup
 setup(
     author="Eric Moyer",
@@ -30,6 +32,6 @@ setup(
         ],
 
     name="ipy_table",
-    version="1.13",
+    version=__version__,
     py_modules=["ipy_table"],
 )
